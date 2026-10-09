@@ -156,7 +156,7 @@ footer{margin-top:30px;font-size:.85rem;color:var(--muted)}
 <section id="completer">
   <h2>Compléter</h2>
   <p class="note">Indiquez votre nom, le bloc concerné (mission ou protocole) et vos informations. Les réponses sont centralisées par la coordination puis reportées sur cette page.</p>
-  <div id="jot-zone"><div class="form-box">Le formulaire de saisie sera bientôt disponible ici.</div></div>
+  <div id="jot-zone"><div class="form-box">Chargement du formulaire…</div></div>
 </section>
 </main>
 
@@ -164,7 +164,7 @@ footer{margin-top:30px;font-size:.85rem;color:var(--muted)}
 </div>
 <script>
 // Coller ici le lien du formulaire Jotform, ex. "https://form.jotform.com/123456789012345"
-var JOTFORM_URL = "";
+var JOTFORM_URL = "https://form.jotform.com/262813763533056";
 if (/^https:\/\/([a-z0-9-]+\.)*jotform\.(com|eu|me)\//i.test(JOTFORM_URL)) {
   var f = document.createElement("iframe");
   f.className = "jot"; f.src = JOTFORM_URL; f.title = "Formulaire de saisie"; f.loading = "lazy";
